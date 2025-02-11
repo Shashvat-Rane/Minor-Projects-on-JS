@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Generator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body class="main">
+    <div>
+        <div class="nav">
+            <a href="../index.html" style="text-decoration: none;">
+                <div class="back-button">
+                    <i class="fa fa-arrow-circle-left" style="font-size:20px"></i>
+                    <span>Back</span>
+                </div>
+            </a>
+        </div>
+        <div class="heading">
+            <h3>Project - 2 Body Mass Index Calculator</h3>
+        </div>
+        <div class="height-weight-box">
+            <span>Enter Height (in cms) :</span>
+            <input type="number" id="height" placeholder="000" class="input-box"/>
+        </div>
+        <div class="height-weight-box">
+            <span>Enter Weight (in kgs) :</span>
+            <input type="number" id="weight" placeholder="000" class="input-box"/>
+        </div>
+
+        <div class="submit-btn">
+            <button type="submit" class="btn">Calculate</button>
+        </div>
+
+        <div class="result-box" id="result">Enter Valid Inputs and Press Calculate</div>
+        
+        <div class="heading">
+            <h6>BMI Weight Guide:<br>Under Weight - Less Than 18.6<br>Normal Range - 18.6 to 24.9<br>Over Weight - Greater Than 24.9</h6>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
