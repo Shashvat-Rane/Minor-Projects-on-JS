@@ -1,8 +1,8 @@
 # Minor Projects on JS
 
-Here are some minor projects on JS to practice and hands on JS.
+Here are some minor projects on JS to practice and get hands on JS.
 
-We will be working on this repo to continuously to keep adding new new Projects based on js.
+We will be working on this repository continuously to keep adding new new Projects based on js.
 
 ### How To Run
 

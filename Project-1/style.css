@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: #212121;
+}
+
+.nav{
+    width: fit-content;
+    margin: 20px 30px;
+    padding: 0;
+}
+
+.back-button{
+    color: antiquewhite;
+    font-size: 17px;
+    background-color: #333333;
+    width: 70px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.heading{
+    text-align: center;
+    color: rgb(241, 232, 222) ;
+    font-weight: 100;
+}
+
+h3{
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+h6{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+}
+
+.button{
+    width: 127px;
+    height: 90px;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#grey{
+    background-color: grey;
+}
+#yellow{
+    background-color: yellow;
+}
+#orange{
+    background-color: orange;
+}
+#black{
+    background-color: black;
+}
+#green{
+    background-color: green;
+}
+#red{
+    background-color: red;
+}
+
+
+@media(max-width:1024px){
+    h3{
+        font-size: 20px;
+    }
+    h6{
+        font-size: 15px;
+    }
+    .button{
+        margin: 20px 15px;
+        width: 100px;
+        height: 80px;
+    }
+    .buttons{
+        width: 410px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media(max-width:450px){
+    h3{
+        font-size: 16px;
+    }
+    h6{
+        font-size: 10px;
+    }
+    .button{
+        margin: 20px 10px;
+        width: 80px;
+        height: 60px;
+    }
+    .buttons{
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
