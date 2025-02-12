@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body class="main">
+    <div>
+        <div class="nav">
+            <a href="../index.html" style="text-decoration: none;">
+                <div class="back-button">
+                    <i class="fa fa-arrow-circle-left" style="font-size:20px"></i>
+                    <span>Back</span>
+                </div>
+            </a>
+        </div>
+        <div class="heading">
+            <h3>Project - 4 Guess The Number Game</h3>
+        </div>
+        
+        <div class="heading">
+            <h6 id="message">Try and Guess The Number between<br>1 to 100<br>You have 10 attempts to guess the right <br>number</h6>
+        </div>
+
+
+        <div class="height-weight-box">
+            <span>Enter Number :</span>
+            <input type="number" id="num" placeholder="00" class="input-box"/>
+        </div>
+
+        <div class="submit-btn">
+            <button type="submit" class="btn" id="guessButton">Guess...</button>
+        </div>
+        
+        
+        <div class="heading">
+            <h6 id="attempts">Attempts Remaining : 10</h6>
+        </div>
+        
+        <div class="heading">
+            <h6 id="previousAttempts">Previous Attempts :<br><br>-</h6>
+        </div>
+
+        <div class="submit-btn">
+            <button 
+                type="submit" 
+                class="btn" 
+                id="start-new-game" 
+                style="background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);color: aliceblue;"
+            >
+                New Game
+            </button>
+        </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
