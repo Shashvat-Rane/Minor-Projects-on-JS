@@ -4,6 +4,8 @@ Here are some JavaScript practice projects to help gain hands-on experience with
 
 We will be continuously updating this repository by adding new JavaScript-based projects.
 
+- If you'd like to see how it looks without downloading it, I have deployed the site using GitHub Pages. You can check it out here: [Link](https://shashvat-rane.github.io/Projects-on-JS/)
+
 ### How to Run
 - Download all files, download the ZIP, or clone this repository to your desktop.
 - Run the project by starting a Live Server in VS Code or opening the index.html file in a browser.
